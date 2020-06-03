@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>请求nodejsAPI_DEMO</title>
+    <link rel="stylesheet" href="idnex.css">
+    <style>
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h2>英雄列表</h2>
+<div class="table-box">
+    <div class="title-box">
+        <div class="tit-edit tit">
+            英雄管理
+        </div>
+        <div class="tit-add tit">
+            <p class="btn" id="addUser">添加</p>
+        </div>
+
+    </div>
+    <table>
+        <colgroup>
+            <col style="width: 20%">         <!--序号-->
+            <col style="width: 20%">       <!-- 商品名称-->
+            <col style="width: 20%">          <!--售价-->
+            <col style="width: 20%">          <!--单位-->
+            <col style="width: 20%">          <!--排序-->
+        </colgroup>
+        <thead style="background: #f3f3f3">
+            <tr class="text-left">
+                <th>
+                    序号
+                </th>
+                <th>
+                    英雄名称
+                </th>
+                <th>
+                    年龄
+                </th>
+                <th>
+                    性别
+                </th>
+                <th>
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody id="td">
+            <tr class="a1">
+                <td>
+                    1
+                </td>
+                <td>
+                    大乔
+                </td>
+                <td>
+                    19
+                </td>
+                <td>
+                    男
+                </td>
+                <td>
+                    <p class="update btn">
+                        编辑
+                    </p>
+                    <p class="delete btn" >
+                        删除
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="index.js"></script>
+</html>
